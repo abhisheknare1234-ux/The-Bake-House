@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custom Cakes | The Bake House Pune — Your Dream Cake, Crafted for You</title>
+<meta name="description" content="Request a custom cake from The Bake House Pune — birthday, wedding, anniversary, theme, photo and designer cakes, made to your flavour and date.">
+<meta name="keywords" content="custom cakes Pune, birthday cakes Pune, designer cakes Pune">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-row">
+    <a href="index.html" class="brand"><span class="brand-mark">B</span> The Bake House</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="cakes.html">Cakes</a>
+      <a href="custom-cakes.html" aria-current="page">Custom Cakes</a>
+      <a href="offers.html">Offers</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="https://wa.me/919876543210?text=Hi!%20I%27d%20like%20to%20place%20an%20order." class="btn btn-outline btn-sm" target="_blank" rel="noopener">Order Now</a>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Custom Cakes</span>
+      <h1>Your Dream Cake, Crafted Just for You</h1>
+      <p>Tell us the occasion, flavour and date — our cake designers will get in touch to confirm every detail.</p>
+    </div>
+  </section>
+
+  <section class="section section--cream">
+    <div class="container grid grid-3">
+      <div class="specialty-card reveal"><div class="specialty-icon">🎈</div><h3>Birthday Cakes</h3><p>Fun, colourful designs for every age.</p></div>
+      <div class="specialty-card reveal"><div class="specialty-icon">💍</div><h3>Wedding Cakes</h3><p>Tiered showpieces for the big day.</p></div>
+      <div class="specialty-card reveal"><div class="specialty-icon">❤️</div><h3>Anniversary Cakes</h3><p>Romantic finishes, made to share.</p></div>
+      <div class="specialty-card reveal"><div class="specialty-icon">🎭</div><h3>Theme Cakes</h3><p>Built around your favourite story.</p></div>
+      <div class="specialty-card reveal"><div class="specialty-icon">📸</div><h3>Photo Cakes</h3><p>Edible-print portraits and memories.</p></div>
+      <div class="specialty-card reveal"><div class="specialty-icon">✨</div><h3>Designer Cakes</h3><p>Sculpted, hand-painted and gilded.</p></div>
+    </div>
+  </section>
+
+  <div class="scallop scallop--onbeige"></div>
+
+  <section class="section section--beige">
+    <div class="container" style="max-width:820px;">
+      <div class="section-head reveal center text-center">
+        <span class="eyebrow">Enquiry Form</span>
+        <h2>Request Your Custom Cake</h2>
+        <p class="center">Fill in the details below and we'll confirm design, flavour and pricing over a quick call.</p>
+      </div>
+
+      <form class="form-panel reveal" id="custom-cake-form" data-success="Thank you! Your custom cake request has been received — we'll call you shortly.">
+        <div class="form-grid">
+
+          <div class="field">
+            <label for="cc-name">Name</label>
+            <input type="text" id="cc-name" name="name" required>
+            <span class="field-error"></span>
+          </div>
+
+          <div class="field">
+            <label for="cc-phone">Phone Number</label>
+            <input type="tel" id="cc-phone" name="phone" required>
+            <span class="field-error"></span>
+          </div>
+
+          <div class="field">
+            <label for="cc-email">Email</label>
+            <input type="email" id="cc-email" name="email" required>
+            <span class="field-error"></span>
+          </div>
+
+          <div class="field">
+            <label for="cc-type">Cake Type</label>
+            <select id="cc-type" name="cakeType" required>
+              <option value="">Select cake type</option>
+              <option>Birthday Cake</option>
+              <option>Wedding Cake</option>
+              <option>Anniversary Cake</option>
+              <option>Theme Cake</option>
+              <option>Photo Cake</option>
+              <option>Designer Cake</option>
+            </select>
+            <span class="field-error"></span>
+          </div>
+
+          <div class="field">
+            <label for="cc-flavor">Flavor</label>
+            <select id="cc-flavor" name="flavor" required>
+              <option value="">Select flavour</option>
+              <option>Chocolate Truffle</option>
+              <option>Red Velvet</option>
+              <option>Belgian Chocolate</option>
+              <option>Black Forest</option>
+              <option>Butterscotch</option>
+              <option>Pineapple</option>
+            </select>
+            <span class="field-error"></span>
+          </div>
+
+          <div class="field">
+            <label for="cc-servings">Servings</label>
+            <input type="number" id="cc-servings" name="servings" min="1" placeholder="e.g. 20" required>
+            <span class="field-error"></span>
+          </div>
+
+          <div class="field">
+            <label for="cc-date">Required Date</label>
+            <input type="date" id="cc-date" name="requiredDate" required>
+            <span class="field-error"></span>
+          </div>
+
+          <div class="field">
+            <label for="cc-budget">Preferred Pickup Time</label>
+            <input type="time" id="cc-budget" name="pickupTime">
+            <span class="field-error"></span>
+          </div>
+
+          <div class="field full">
+            <label for="cc-message">Message</label>
+            <textarea id="cc-message" name="message" placeholder="Describe your design, theme, colours or reference image..."></textarea>
+            <span class="field-error"></span>
+          </div>
+
+        </div>
+        <button type="submit" class="btn btn-primary btn-block mt-lg" style="margin-top:28px;">Request Custom Cake</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <h3>The Bake House Pune</h3>
+      <p>Freshly baked happiness, every day.</p>
+      <div class="social-row">
+        <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+        <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener">FB</a>
+        <a href="https://wa.me/919876543210" aria-label="WhatsApp" target="_blank" rel="noopener">WA</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="cakes.html">Cakes</a></li>
+        <li><a href="offers.html">Offers</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Opening Hours</h4>
+      <p>Monday – Sunday<br>8:00 AM – 10:00 PM</p>
+    </div>
+    <div class="footer-col">
+      <h4>Get in Touch</h4>
+      <ul>
+        <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+        <li><a href="mailto:hello@bakehousepune.in">hello@bakehousepune.in</a></li>
+        <li>Koregaon Park, Pune</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; 2026 The Bake House Pune. All rights reserved.</span>
+    <span>bakery in Pune · custom cakes Pune · fresh bakery products</span>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<a href="https://wa.me/919876543210" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">💬</a>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
